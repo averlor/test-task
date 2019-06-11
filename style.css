@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+    margin: 5vh auto;
+}
+form{
+    border: 1px solid lightgray;
+    padding: 5vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    gap: 10px;
+}
+.form__lable{
+    font: 200 0.8rem 'Times New Roman';
+    color: rgb(114, 114, 114);
+}
+.form__input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font: 200 1.2rem Arial,sans-serif;
+}
+.form__lable, .form__input{
+    display: block;
+}
+.form__btn{
+    padding: 1vh;
+}
+footer{
+    margin: 5vh auto;
+}
+.footer__lable, .footer__input{
+    display: block;
+}
+.footer__lable{
+    color: rgb(94, 94, 94);
+    font: 500 1.3rem "Times New Roman", serif;
+}
+.footer__input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font: 200 1.2rem Arial, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    background-color: lightgray;
+}
+th{
+    padding: 3vh;
+}
+/* mixin */
+.headline{
+    font: bold 1.5rem Arial,sans-serif;
+}
+.send{
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(71, 194, 194);
+    border-radius: 5px;
+    background-color: rgb(71, 194, 194  );
+    color: rgb(255,255,255);
+
+}
+.cancel{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
