@@ -37,6 +37,9 @@ form{
 footer{
     margin: 5vh auto;
 }
+.filter{
+    float: right;
+}
 .footer__lable, .footer__input{
     display: block;
 }
