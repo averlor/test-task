@@ -48,3 +48,11 @@ send.onclick = (e) => {
 
     document.form.reset();
 }
+
+//localStorage
+let serialArray = JSON.stringify(records);
+
+localStorage.setItem('records', serialArray);
+
+
+let recordsArray = JSON.parse(localStorage.getItem('records'));
